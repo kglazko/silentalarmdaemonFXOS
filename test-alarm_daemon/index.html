@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <meta charset="utf-8">
     <title>Silent Alarm Daemon</title>
 
     <style>
-      html, body {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
-
-      label {
-        display: block;
-      }
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+        label {
+            display: block;
+        }
+        input {
+            width: 20;
+            float: right;
+        }
+        button {
+            float: center;
+        }
+        #options {
+            text-align: left;
+        }
     </style>
 
     <script src="js/silentalarm.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="options">
-      <label>Make Alarm Go Off Every X Hours: <input id="hr" name="hours" type="number" placeholder="2"/></label>
-      <br>
-      <label>Repeat this X Times: <input id="repeat" name="hours" type="number" placeholder="5"/></label>
+        <label>Alarm Every X Hours:
+            <input id="hr" name="hours" type="number" placeholder="2" />
+        </label>
+        <br>
+        <label>Repeat this X Times:
+            <input id="repeat" name="hours" type="number" placeholder="5" />
+        </label>
     </div>
     <br>
     <br>
     <div id="buttons">
-      <button id="start">Start Alarm Daemon</button>
+        <button id="start">Start Alarm Daemon</button>
     </div>
-  </body>
+</body>
+
 </html>
