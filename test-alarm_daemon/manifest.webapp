@@ -1,0 +1,22 @@
+{
+  "name": "Test Silent Alarm Daemon",
+  "description": "Run a daemon that activates a silent alarm every few hours.",
+  "type": "certified",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/mozilla-b2g/gaia"
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/style/icons/Blank.png"
+  },
+  "permissions": {
+    "alarms": {
+      "description": "Required to schedule alarms"
+    }
+  },
+  "messages": [
+    { "alarm": "/index.html" }
+  ]
+}
