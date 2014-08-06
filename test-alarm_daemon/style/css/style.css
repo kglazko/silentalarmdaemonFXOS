@@ -8,6 +8,7 @@ body {
 label {
     display: block;
     padding-right:50px;
+    padding-bottom: 20px;
 }
 
 input {
@@ -21,4 +22,8 @@ button {
 
 #options {
     text-align: left;
+}
+
+#buttons {
+    padding-top:10px;
 }
