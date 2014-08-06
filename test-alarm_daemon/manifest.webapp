@@ -4,8 +4,8 @@
   "type": "certified",
   "launch_path": "/index.html",
   "developer": {
-    "name": "The Gaia Team",
-    "url": "https://github.com/mozilla-b2g/gaia"
+    "name": "Kate Glazko",
+    "url": "https://github.com/yglazko/silentalarmdaemonFXOS"
   },
   "default_locale": "en-US",
   "icons": {
